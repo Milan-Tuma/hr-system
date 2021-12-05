@@ -1,0 +1,24 @@
+.button {
+	display: inline-block;
+	width: max-content;
+	align-self: flex-end;
+	margin: 0.7rem 2rem;
+	background-color: var(--color-blue);
+	padding: 0.5rem 1rem;
+	border: none;
+	color: var(--color-white);
+	border-radius: 2px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+	transition: all 200ms;
+	cursor: pointer;
+}
+
+.button:hover {
+	transform: translateY(-1px);
+	transition: all 200ms;
+}
+
+.button:active {
+	transform: translateY(0);
+	transition: all 100ms;
+}

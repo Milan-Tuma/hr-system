@@ -1,0 +1,22 @@
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper {
+	max-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.employeeList {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-height: 78vh;
+	overflow-y: scroll;
+	margin: 0 2rem;
+}
