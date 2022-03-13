@@ -10,7 +10,7 @@ const Navbar = () => {
 	return (
 		<div className={classes.container}>
 			<div className={classes.logo}>
-				<Link to="/">USU</Link>
+				<Link to="/">XYZ</Link>
 			</div>
 			<ul className={classes.links}>
 				<li className={splitLocation[1] === '' ? classes.active : classes.link}>
@@ -25,7 +25,7 @@ const Navbar = () => {
 					<Link to="/statistics">Show statistics</Link>
 				</li>
 			</ul>
-			<h5 className={classes.copy}>&copy;2021 USU Software AG</h5>
+			<h5 className={classes.copy}>&copy;2021 XYZ Software</h5>
 		</div>
 	);
 };
